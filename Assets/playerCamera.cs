@@ -11,8 +11,8 @@ public class playerCamera : MonoBehaviour
     public float limitXAxizAngle = 30;//縦の限界角度
     private Vector3 mXAxiz;
     void Start(){
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
         mXAxiz = xAxis.localEulerAngles;
     }
     /// <summary>
